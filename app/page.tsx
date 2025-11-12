@@ -24,7 +24,7 @@ const COLORS = {
 };
 
 function DockedNav() {
-  const tabs = ["HOME", "PLAY", "ONLINE", "MATCH DAY LIVE", "CUSTOMISE"];
+  const tabs = ["HOME", "PLAY", "SETTINGS", "PROFILE"];
 
   return (
     <div className="w-full">
@@ -104,8 +104,8 @@ function KickOffCard() {
           <img src={ART.crest} className="w-10 h-10" />
           <span className="font-extrabold tracking-wide text-white">MASTERMIND</span>
         </div>
-        <div className="mt-4 text-[44px] leading-none font-black text-white">1ST</div>
-        <div className="mt-6 text-sm text-white/80">Team form:</div>
+        <div className="mt-4 text-[44px] leading-none font-black text-white">5-2</div>
+        <div className="mt-6 text-sm text-white/80">Form:</div>
         <div className="mt-1 flex items-center gap-3 text-xs font-semibold text-white">
           <span className="px-2 py-0.5 bg-black/30">▲ 5</span>
           <span className="px-2 py-0.5 bg-black/30">▼ 1</span>
@@ -133,7 +133,7 @@ function CatalogueCard() {
           </div>
 
           <div className="mt-6 text-xs" style={{ color: COLORS.sub }}>
-            REDEEM OR GIFT NOW! Unlockables with your Football Club Credits.
+            Play head to head matches with your friends in a variaty of game modes and test your knowledge.
           </div>
 
           <div className="mt-6 flex gap-3">
@@ -211,13 +211,13 @@ export default function FIFA15HomePage() {
           <KickOffCard />
           <CatalogueCard />
           <SmallCard
-            title="SKILL GAMES"
-            subtitle="Improve and test your FIFA skills in a variety of mini-games."
+            title="COMING SOON"
+            subtitle="Take rapid fire quizzes to sharpen your knowledge."
             art={ART.skills}
           />
           <SmallCard
-            title="TEAM OF THE WEEK"
-            subtitle="The best players of the week are in Ultimate Team. Visit now!"
+            title="COMING SOON"
+            subtitle="Compete against up to 3 friends at a time."
             art={ART.totw}
           />
         </main>
